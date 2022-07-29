@@ -1,0 +1,208 @@
+body {
+  background-color: rgb(30, 31, 31);
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rectangle {
+  width: 990px;
+  margin: 5px;
+  margin: 40px 0 30px 5px;
+}
+.square {
+  width: 50%;
+  float: left;
+  margin-bottom: 10px;
+}
+#logo {
+  float: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 70px;
+  width: 600px;
+  margin-left: 5px;
+}
+#clock {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 70px;
+  text-align: right;
+  margin-right: 5px;
+}
+.tile1 {
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  background-color: #f25022;
+  float: left;
+  text-align: center;
+  transition: all 500ms ease-in-out;
+}
+.tile1:hover {
+  background-color: #e14011;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.tile2 {
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  background-color: #7fba00;
+  float: left;
+  text-align: center;
+  transition: all 500ms ease-in-out;
+}
+.tile2:hover {
+  background-color: #6eaa00;
+  cursor: pointer;
+   transform: scale(0.9);
+}
+.tile3 {
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  background-color: #00a4ef;
+  float: left;
+  text-align: center;
+  transition: all 500ms ease-in-out;
+}
+.tile3:hover {
+  background-color: #00a2de;
+  cursor: pointer;
+   transform: scale(0.9);
+}
+.tile4 {
+  margin: 10px;
+  width: 230px;
+  height: 142px;
+  background-color: #ffb900;
+  float: left;
+  text-align: center;
+  transition: all 500ms ease-in-out;
+}
+.tile4:hover {
+  background-color: #eea800;
+  cursor: pointer;
+   transform: scale(0.9);
+}
+.tile5 {
+  margin: 10px;
+  width: 440px;
+  height: 102px;
+  background-color: #737373;
+  float: left;
+  padding: 20px;
+}
+.tile6 {
+  float: left;
+  width: 440px;
+  margin: 10px;
+  height: 264px;
+  background-color: #902d30;
+  text-align: justify;
+  padding: 20px;
+  font-size: 18px;
+}
+.yt {
+  float: left;
+  width: 105px;
+  margin: 10px;
+  height: 142px;
+  background-color: rgb(30, 31, 31);
+  transition: all 500ms ease-in-out;
+}
+.fb {
+  float: left;
+  width: 105px;
+  margin: 10px;
+  height: 142px;
+  background-color: rgb(30, 31, 31);
+  transition: all 500ms ease-in-out;
+}
+.git {
+  float: left;
+  width: 105px;
+  margin: 10px;
+  height: 142px;
+  background-color: rgb(30, 31, 31);
+  transition: all 500ms ease-in-out;
+}
+.ld {
+  float: left;
+  width: 105px;
+  margin: 10px;
+  height: 142px;
+  background-color: rgb(30, 31, 31);
+  transition: all 500ms ease-in-out;
+}
+.footer {
+  clear: both;
+  font-size: 18px;
+  background-color: #070707;
+  height: 20px;
+  padding: 10px;
+  margin: 8px;
+  text-align: center;
+}
+.quote {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  text-align: center;
+  line-height: 150%;
+}
+.chinese {
+  font-family: "Long Cang", cursive;
+  font-size: 27px;
+  line-height: 150%;
+}
+.yt:hover {
+  background-color: #d94348;
+  cursor: pointer;
+  border-radius: 8px;
+   transform: scale(0.9);
+}
+.fb:hover {
+  background-color: #4668b3;
+  cursor: pointer;
+  border-radius: 8px;
+   transform: scale(0.9);
+}
+.git:hover {
+  background-color: #7a349d;
+  cursor: pointer;
+  border-radius: 8px;
+   transform: scale(0.9);
+}
+.ld:hover {
+  background-color: #0a66c2;
+  cursor: pointer;
+  border-radius: 8px;
+   transform: scale(0.9);
+}
+.intro {
+  text-align: center;
+  margin: 0;
+}
+.end {
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  background-color: #070707;
+  font-size: 40px;
+  border-radius: 8px;
+  transition: all 500ms ease-in-out;
+}
+.button {
+  text-align: center;
+  font-size: 150px;
+}
+button:hover {
+  transform: scale(0.9);
+}
